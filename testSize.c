@@ -84,6 +84,8 @@ class TwoHalfCharsAndAMethod
 
 int main(int argc, const char *argv[])
 {
+    printf("test size of plain old C types\n");
+
 	// Base types
 	printf("char: %u\n", sizeof(char));
 	printf("uchar: %u\n", sizeof(unsigned char));
