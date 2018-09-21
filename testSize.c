@@ -5,7 +5,7 @@ typedef struct
 {
 	char A:2;
 	char B:6;
-} t_a_byte_2;
+} t_a_byte;
 
 typedef struct
 {
@@ -98,7 +98,7 @@ int main(int argc, const char *argv[])
 	printf("float: %u\n", sizeof(float));
 	printf("double: %u\n", sizeof(double));
 	printf("ptr: %u\n", sizeof(void *));
-       
+
 	// Structs
 	printf("struct t_a_byte = %u\n", sizeof(t_a_byte));
 	printf("struct t_ten_bits = %u\n", sizeof(t_ten_bits));
@@ -112,7 +112,6 @@ int main(int argc, const char *argv[])
 	printf("class TwoChars: %u\n", sizeof(TwoChars));
 	printf("class TwoHalfChars: %u\n", sizeof(TwoHalfChars));
 	printf("class TwoHalfCharsAndAMethod: %u\n", sizeof(TwoHalfCharsAndAMethod));
-
 
 	return 0;
 }
