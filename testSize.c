@@ -5,7 +5,7 @@ typedef struct
 {
 	char A:2;
 	char B:6;
-} t_a_byte;
+} t_a_byte; // DO NOT EDIT THIS, INTI!!
 
 typedef struct
 {
